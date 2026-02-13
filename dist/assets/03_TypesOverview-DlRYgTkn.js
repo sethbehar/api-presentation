@@ -1,0 +1,16 @@
+import{c as a,j as e,m as i}from"./index-Oc0uURfK.js";import{S as c}from"./SlideLayout-C_mLh-Ee.js";import{A as l}from"./AnimatedCard-BUTNyFY9.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const n=a("GitBranch",[["line",{x1:"6",x2:"6",y1:"3",y2:"15",key:"17qcm7"}],["circle",{cx:"18",cy:"6",r:"3",key:"1h7g24"}],["circle",{cx:"6",cy:"18",r:"3",key:"fqmcym"}],["path",{d:"M18 9a9 9 0 0 1-9 9",key:"n2h4wq"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const r=a("Radio",[["path",{d:"M4.9 19.1C1 15.2 1 8.8 4.9 4.9",key:"1vaf9d"}],["path",{d:"M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5",key:"u1ii0m"}],["circle",{cx:"12",cy:"12",r:"2",key:"1c9p78"}],["path",{d:"M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5",key:"1j5fej"}],["path",{d:"M19.1 4.9C23 8.8 23 15.1 19.1 19",key:"10b0cb"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const d=a("Repeat",[["path",{d:"m17 2 4 4-4 4",key:"nntrym"}],["path",{d:"M3 11v-1a4 4 0 0 1 4-4h14",key:"84bu3i"}],["path",{d:"m7 22-4-4 4-4",key:"1wqhfi"}],["path",{d:"M21 13v1a4 4 0 0 1-4 4H3",key:"1rx37r"}]]),o=[{icon:e.jsx(d,{size:28}),title:"REST",color:"text-blue-400",bg:"bg-blue-500/10",desc:"Resource-based, stateless, HTTP methods. The most widely used API paradigm."},{icon:e.jsx(n,{size:28}),title:"GraphQL",color:"text-pink-400",bg:"bg-pink-500/10",desc:"Query language that lets clients request exactly the data they need in a single call."},{icon:e.jsx(r,{size:28}),title:"WebSocket",color:"text-emerald-400",bg:"bg-emerald-500/10",desc:"Persistent bidirectional connection for real-time data streaming."}];function p(){return e.jsx(c,{children:e.jsxs("div",{className:"flex w-full max-w-5xl flex-col items-center text-center",children:[e.jsx(i.span,{initial:{opacity:0,y:12},animate:{opacity:1,y:0},transition:{duration:.4},className:"mb-4 inline-block rounded-full bg-indigo-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-indigo-400",children:"API Paradigms"}),e.jsx(i.h2,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{duration:.5,delay:.05},className:"mb-6 text-4xl font-bold text-white md:text-5xl",children:"Types of APIs"}),e.jsx(i.p,{initial:{opacity:0,y:12},animate:{opacity:1,y:0},transition:{duration:.5,delay:.1},className:"mb-10 max-w-xl text-slate-400",children:"Different patterns for different needs. This presentation focuses on REST, but here are the major paradigms."}),e.jsx("div",{className:"grid w-full grid-cols-1 gap-6 md:grid-cols-3",children:o.map((t,s)=>e.jsxs(l,{delay:.2+s*.15,className:"relative overflow-hidden",children:[e.jsxs("div",{className:"flex items-center justify-center gap-4",children:[e.jsx("div",{className:`mb-4 flex h-14 w-14 items-center justify-center rounded-xl ${t.bg} ${t.color}`,children:t.icon}),e.jsx("h3",{className:"mb-2 text-xl font-bold text-white",children:t.title})]}),e.jsx("p",{className:"text-sm leading-relaxed text-slate-400",children:t.desc})]},t.title))})]})})}export{p as default};
