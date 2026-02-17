@@ -8,7 +8,6 @@ const optimizations = [
   { icon: <HardDrive size={24} />, title: 'Caching', desc: 'Store and reuse responses to reduce latency', color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
   { icon: <FileDown size={24} />, title: 'Response Compression', desc: 'Shrink payload size for faster transfers', color: 'text-cyan-400', bg: 'bg-cyan-500/10' },
   { icon: <Database size={24} />, title: 'Database Queries', desc: 'Optimize queries to avoid bottlenecks', color: 'text-violet-400', bg: 'bg-violet-500/10' },
-  { icon: <Gauge size={24} />, title: 'Pagination', desc: 'Limit result sets to keep responses fast', color: 'text-pink-400', bg: 'bg-pink-500/10' },
 ];
 
 export default function PerfOverview() {
@@ -33,7 +32,7 @@ export default function PerfOverview() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-10 max-w-xl text-center text-slate-400"
         >
-          Speed matters. Here are 5 key performance optimizations.
+          Speed matters. Here are 4 key performance optimizations.
         </motion.p>
 
         <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
