@@ -26,7 +26,7 @@ function SizeComparison() {
       <div>
         <div className="mb-2 flex items-center justify-between">
           <span className="text-sm font-semibold text-slate-300">
-            gzip <span className="text-xs text-slate-500">(-70%)</span>
+            gzip 
           </span>
           <span className="font-mono text-sm text-amber-400">73 KB</span>
         </div>
@@ -44,7 +44,7 @@ function SizeComparison() {
       <div>
         <div className="mb-2 flex items-center justify-between">
           <span className="text-sm font-semibold text-slate-300">
-            Brotli <span className="text-xs text-slate-500">(-80%)</span>
+            Brotli
           </span>
           <span className="font-mono text-sm text-emerald-400">49 KB</span>
         </div>
@@ -85,9 +85,9 @@ export default function Compression() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-10 max-w-xl text-center text-slate-400"
         >
-          Compress API responses before sending. Less data over the wire means{' '}
-          <span className="font-semibold text-cyan-400">faster transfers</span> and{' '}
-          <span className="font-semibold text-cyan-400">lower bandwidth costs</span>.
+          Compress API responses before sending back to the client.
+          {/* <span className="font-semibold text-cyan-400">faster transfers</span> and{' '}
+          <span className="font-semibold text-cyan-400">lower bandwidth costs</span>. */}
         </motion.p>
 
         <SizeComparison />

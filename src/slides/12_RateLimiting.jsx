@@ -216,7 +216,7 @@ export default function RateLimiting() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-6 max-w-xl text-slate-400"
         >
-          Protect your API from abuse. When a client exceeds the allowed request rate,
+          When a client exceeds the allowed request rate,
           the server responds with <span className="font-mono font-semibold text-red-400">429 Too Many Requests</span>.
         </motion.p>
 

@@ -61,7 +61,7 @@ export default function SecurityAuth() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-10 max-w-2xl text-center text-slate-400"
         >
-          Defense in depth -- multiple layers work together so that if one is bypassed, others still protect the system.
+          Multiple layers work together so that if one is bypassed, others still protect the system.
         </motion.p>
 
         {/* Layered security visualization */}
@@ -79,7 +79,6 @@ export default function SecurityAuth() {
                 <div className={`${layer.iconColor}`}>{layer.icon}</div>
                 <div>
                   <h3 className="text-sm font-semibold text-white">{layer.title}</h3>
-                  <p className="text-xs text-slate-400">{layer.desc}</p>
                 </div>
                 <div className="ml-auto text-xs font-mono text-slate-600">Layer {i + 1}</div>
               </div>

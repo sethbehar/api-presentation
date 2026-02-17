@@ -9,7 +9,7 @@ const types = [
     title: 'REST',
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
-    desc: 'Resource-based, stateless, HTTP methods. The most widely used API paradigm.',
+    desc: 'Resource-based, stateless, HTTP methods.',
   },
   {
     icon: <GitBranch size={28} />,
@@ -23,7 +23,7 @@ const types = [
     title: 'WebSocket',
     color: 'text-emerald-400',
     bg: 'bg-emerald-500/10',
-    desc: 'Persistent bidirectional connection for real-time data streaming.',
+    desc: 'Persistent connection for real-time data streaming.',
   },
 ];
 
@@ -44,19 +44,12 @@ export default function TypesOverview() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
-          className="mb-6 text-4xl font-bold text-white md:text-5xl"
+          className="mb-12 text-4xl font-bold text-white md:text-5xl"
         >
           Types of APIs
         </motion.h2>
 
-        <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="mb-10 max-w-xl text-slate-400"
-        >
-          Different patterns for different needs. This presentation focuses on REST, but here are the major paradigms.
-        </motion.p>
+
 
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-3">
           {types.map((t, i) => (

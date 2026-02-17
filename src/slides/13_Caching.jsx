@@ -120,8 +120,6 @@ export default function Caching() {
           className="mb-8 max-w-xl text-center text-slate-400"
         >
           Store frequently accessed data closer to the consumer.
-          A cache <span className="font-semibold text-emerald-400">hit</span> is orders of magnitude faster
-          than a <span className="font-semibold text-amber-400">miss</span>.
         </motion.p>
 
         <CacheFlow />
@@ -137,11 +135,9 @@ export default function Caching() {
             { label: 'CDN Cache', sub: 'Edge locations' },
             { label: 'API Gateway', sub: 'Response cache' },
             { label: 'Redis / Memcached', sub: 'In-memory store' },
-            { label: 'Browser Cache', sub: 'Cache-Control headers' },
           ].map((c, i) => (
             <div key={c.label} className="glass rounded-lg px-4 py-2 text-center">
               <div className="text-sm font-semibold text-white">{c.label}</div>
-              <div className="text-xs text-slate-500">{c.sub}</div>
             </div>
           ))}
         </motion.div>

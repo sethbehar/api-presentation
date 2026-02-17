@@ -8,8 +8,7 @@ const responsibilities = [
   { icon: <Shield size={22} />, title: 'Rate Limiting', desc: 'Protects backends from abuse by throttling excessive requests', color: 'text-amber-400' },
   { icon: <Gauge size={22} />, title: 'Load Balancing', desc: 'Distributes requests across multiple service instances', color: 'text-emerald-400' },
   { icon: <Lock size={22} />, title: 'SSL Termination', desc: 'Handles TLS encryption/decryption at the edge', color: 'text-cyan-400' },
-  { icon: <Layers size={22} />, title: 'Request Transform', desc: 'Modifies headers, body, or query params before forwarding', color: 'text-violet-400' },
-  { icon: <Network size={22} />, title: 'Service Discovery', desc: 'Dynamically locates backend services in the network', color: 'text-pink-400' },
+  { icon: <Layers size={22} />, title: 'Request Transformation', desc: 'Modifies headers, body, or query params before forwarding', color: 'text-violet-400' },
 ];
 
 export default function ApiGateway() {
@@ -35,7 +34,7 @@ export default function ApiGateway() {
           className="mb-8 max-w-2xl text-center text-slate-400"
         >
           The <span className="font-semibold text-blue-400">single entry point</span> for all
-          API traffic. It sits between clients and your backend, handling cross-cutting concerns.
+          API traffic
         </motion.p>
 
         <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

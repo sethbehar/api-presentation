@@ -11,7 +11,7 @@ ORDER BY created_at DESC;
 
 -- No index on created_at or status
 -- Full table scan on 2.4M rows
--- Returns all columns including BLOBs`;
+-- Returns all columns for every row`;
 
 const optimized = `SELECT id, user_id, total, created_at
 FROM orders
@@ -52,8 +52,7 @@ export default function DatabaseQueries() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-8 max-w-xl text-slate-400"
         >
-          The same data, the same result -- but the way you ask for it
-          makes all the difference.
+          Often the largest bottleneck in a system.
         </motion.p>
 
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
@@ -139,7 +138,7 @@ export default function DatabaseQueries() {
         </div>
 
         {/* Tips */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
@@ -150,7 +149,7 @@ export default function DatabaseQueries() {
               {tip}
             </span>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </SlideLayout>
   );

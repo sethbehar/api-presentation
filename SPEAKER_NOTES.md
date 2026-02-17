@@ -100,6 +100,9 @@ The API Gateway is the single entry point for all API traffic. It sits between y
 
 > **On screen:** Four service cards (User, Order, Payment, Notification) with their endpoints listed
 
+- API gateway will matter the most in a microservices architecture because without the gateway you are going to have duplicated logic everywhere, meaning each serivce will have to implement its own auth, rate limiting, and logging
+
+
 Behind the gateway, we often break our application into independent backend services. This is the microservices pattern.
 
 Each service owns a specific domain. The **User Service** handles profiles and accounts. The **Order Service** manages orders. The **Payment Service** processes transactions. The **Notification Service** sends emails, SMS, or push notifications.

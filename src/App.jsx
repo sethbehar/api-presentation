@@ -17,7 +17,6 @@ const slideImports = [
   lazy(() => import('./slides/13_Caching')),
   lazy(() => import('./slides/14_Compression')),
   lazy(() => import('./slides/15_DatabaseQueries')),
-  lazy(() => import('./slides/16_Pagination')),
   lazy(() => import('./slides/17_AzureApim')),
   lazy(() => import('./slides/18_Summary')),
 ];

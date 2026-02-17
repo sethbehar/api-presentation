@@ -79,8 +79,7 @@ export default function BackendServices() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-8 max-w-2xl text-slate-400"
         >
-          The <span className="font-semibold text-emerald-400">microservices pattern</span> splits
-          responsibilities into independent, deployable units -- each owning its own endpoints.
+          The <span className="font-semibold text-emerald-400">Microservices pattern</span>
         </motion.p>
 
         {/* Service cards with their endpoints */}

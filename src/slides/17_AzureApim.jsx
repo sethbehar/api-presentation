@@ -22,7 +22,7 @@ const steps = [
     color: 'text-sky-400',
     border: 'border-sky-500/30',
     bg: 'bg-sky-500/10',
-    items: ['Mobile app, SPA, or external service sends an HTTP request'],
+    items: [],
   },
   {
     num: 2,
@@ -31,7 +31,7 @@ const steps = [
     color: 'text-indigo-400',
     border: 'border-indigo-500/30',
     bg: 'bg-indigo-500/10',
-    items: ['Single entry point for all API traffic'],
+    items: [],
     accent: true,
   },
   {
@@ -41,7 +41,7 @@ const steps = [
     color: 'text-amber-400',
     border: 'border-amber-500/30',
     bg: 'bg-amber-500/10',
-    items: ['Rate Limiting & Quotas', 'OAuth 2.0 / JWT Validation', 'Request Transformation'],
+    items: [],
     indent: true,
   },
   {
@@ -73,7 +73,7 @@ const steps = [
     color: 'text-violet-400',
     border: 'border-violet-500/30',
     bg: 'bg-violet-500/10',
-    items: ['Response Transformation', 'Store Response in Cache'],
+    items: [],
     indent: true,
   },
   {
@@ -83,7 +83,7 @@ const steps = [
     color: 'text-sky-400',
     border: 'border-sky-500/30',
     bg: 'bg-sky-500/10',
-    items: ['Compressed, transformed response delivered back to caller'],
+    items: [],
   },
 ];
 
@@ -228,7 +228,7 @@ export default function AzureApim() {
                                 HIT
                               </span>
                               <ArrowRight size={10} className="text-emerald-500" />
-                              <span className="text-emerald-400">Skip to Step 7 (fast path)</span>
+                              <span className="text-emerald-400">Send response to client</span>
                             </motion.div>
                             <motion.div
                               initial={{ opacity: 0 }}

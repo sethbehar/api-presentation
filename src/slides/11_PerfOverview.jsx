@@ -33,7 +33,7 @@ export default function PerfOverview() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-10 max-w-xl text-center text-slate-400"
         >
-          Speed matters. Five key strategies to keep your APIs fast, reliable, and efficient.
+          Speed matters. Here are 5 key performance optimizations.
         </motion.p>
 
         <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">

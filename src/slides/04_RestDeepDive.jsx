@@ -17,8 +17,8 @@ var response = await client.GetAsync(
     "https://api.itsacademy.com/api/v1/get-best-academy/"
 );
 
-var user = await response.Content
-    .ReadFromJsonAsync<User>();`;
+var academy = await response.Content
+    .ReadFromJsonAsync<Academy>();`;
 
 const exampleResponse = `HTTP/1.1 200 OK
 Content-Type: application/json
@@ -28,7 +28,9 @@ Content-Type: application/json
   "name": "ITS Academy Cohort 2025",
   "startDate": "2025-08-25",
   "endDate": "2026-06-02",
-  "students": "Isaac, Jordan, Kris, Madalina, Matt, Mike, Sam, Seth"
+  "students": "Isaac, Jordan, Kris, 
+               Madalina, Matt, Mike, 
+               Sam, Seth"
 }`;
 
 export default function RestDeepDive() {
@@ -55,8 +57,10 @@ export default function RestDeepDive() {
         >
           <span className="font-semibold text-blue-400">RE</span>presentational{' '}
           <span className="font-semibold text-blue-400">S</span>tate{' '}
-          <span className="font-semibold text-blue-400">T</span>ransfer -- resources identified by
-          URLs, manipulated through standard HTTP methods.
+          <span className="font-semibold text-blue-400">T</span>ransfer 
+          
+          {/* -- resources identified by
+          URLs, manipulated through standard HTTP methods. */}
         </motion.p>
 
         {/* HTTP Methods */}
@@ -71,7 +75,6 @@ export default function RestDeepDive() {
             >
               <span className={`inline-block h-3 w-3 rounded-full ${m.color}`} />
               <span className="font-mono text-sm font-semibold text-white">{m.name}</span>
-              <span className="text-xs text-slate-500">{m.desc}</span>
             </motion.div>
           ))}
         </div>

@@ -1,0 +1,1 @@
+import{j as o}from"./index-DWdJOSNk.js";function r({children:e,className:t=""}){return o.jsx("div",{className:`absolute inset-0 flex flex-col items-center justify-center px-8 py-16 md:px-16 lg:px-24 overflow-y-auto ${t}`,children:e})}export{r as S};

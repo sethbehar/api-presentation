@@ -1,0 +1,1 @@
+import{j as r,m as s}from"./index-DWdJOSNk.js";function e({delay:t=0,className:i="",children:o,onClick:a}){return r.jsx(s.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},transition:{duration:.5,delay:t,ease:[.25,.46,.45,.94]},onClick:a,className:`glass rounded-2xl p-6 ${a?"cursor-pointer":""} ${i}`,children:o})}export{e as A};
